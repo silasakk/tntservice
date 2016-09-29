@@ -42,7 +42,7 @@ get_header(); ?>
 	<section class="section bg-geo">
 		<div class="container">
 			<div class="row intro">
-				<div class="col-sm-6">
+				<div class="col-md-6">
 					<h1 class="c-blue line-height-4">
 						รับประกันการซ่อม<br>
 						ด้วยอะไหล่แท้ทุกชิ้น
@@ -52,17 +52,14 @@ get_header(); ?>
 						เนื่องด้วยทีมงานคุณภาพของ TNT SERVICEเราจึงนำเข้าอะไหล่สินค้า ที่จะนำมาซ่อมให้ลูกค้าเราจึงพิจรณา อะไหล่แท้ ก่อนนำมาซ่อมให้ลูกค้าทุกครั้ง และทุกชิ้น ต้องขอเน้นเลยว่า ทุกชิ้นเพราะว่าอะไหล่ปลอม นั้นมีมากมายตามท้องตลาดจึงทำให้อาการที่เราซ่อมไปนั้นไม่หายขาดซ่อมแล้วกลับมาเป็นใหม่
 					</p>
 					<p class="c-blue mb3">เราเลยขอรับประกันเลยว่าทีมงานเรานั้นคุณภาพแน่นอนมั้นใจได้ 100%</p>
-					<a href="" class="btn btn-primary">ดูเพิ่มเติม <i class="fa fa-long-arrow-right"></i></a>
+					<a href="" class="btn btn-primary mb4">ดูเพิ่มเติม <i class="fa fa-long-arrow-right"></i></a>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-md-6">
 					<img src="<?php echo esc_url(get_template_directory_uri())?>/assets/images/intro1.png" class="img-responsive mx-auto rounded" alt="">
 				</div>
 			</div>
 			<div class="row intro">
-				<div class="col-sm-6">
-					<img src="<?php echo esc_url(get_template_directory_uri())?>/assets/images/intro2.png" class="img-responsive mx-auto rounded" alt="">
-				</div>
-				<div class="col-sm-6">
+				<div class="col-md-6 col-md-push-6">
 					<h1 class="c-blue line-height-4">
 						แนะนำการใช้เครื่องรัดกล่อง
 					</h1>
@@ -72,8 +69,14 @@ get_header(); ?>
 						คุณลูกค้า ทีมช่าง พร้อมแนะนำการใช้เครื่องรัดกล่อง สอนการใช้เครื่องรัด จนลูกค้าเข้าใจ และใช้เองได้ ทีมงาน พร้อม บริการ ทุกๆท่าน ด้วยความใส่ใจ ท่านที่สนใจ กำลังมองกา เครื่องรัด และการเซอร์วิส ทักกันมา นะคะ พร้อมรับทุกสายค่ะ
 					</p>
 					<p class="c-blue mb3">เราเลยขอรับประกันเลยว่าทีมงานเรานั้นคุณภาพแน่นอนมั้นใจได้ 100%</p>
-					<a href="" class="btn btn-primary">ดูเพิ่มเติม <i class="fa fa-long-arrow-right"></i></a>
+					<a href="" class="btn btn-primary mb4">ดูเพิ่มเติม <i class="fa fa-long-arrow-right"></i></a>
 				</div>
+				<div class="col-md-6 col-md-pull-6">
+					<img src="<?php echo esc_url(get_template_directory_uri())?>/assets/images/intro2.png" class="img-responsive mx-auto rounded" alt="">
+				</div>
+
+
+
 
 			</div>
 		</div>
